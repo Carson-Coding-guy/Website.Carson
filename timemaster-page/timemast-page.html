@@ -1,0 +1,45 @@
+<head>
+  <title>The Tremendous Time Table</title>
+  <link rel="stylesheet" href="time-machine.css" />
+</head>
+<body>
+  <h1 class="tttt">The Tremendous Time Table</h1>
+  <div class="container">
+    <a class="time-links" href="/index.html"> return to home </a>
+    <form action="">
+      <label for="task">input your task</label>
+      <input id="task-input" type="text" placeholder="Task one" />
+      <label for="task">input your image</label>
+      <input id="image-input" type="text" placeholder="Task two" />
+      <div>
+        <input type="reset" />
+        <button onclick="rendertask()">enter task</button>
+      </div>
+    </form>
+    <div id="task-template">
+      <div class="task-panel">
+        <label for="start"> start date: </label>
+        <input
+          type="date"
+          id="start"
+          name="trip-start"
+          value="2018-01-01"
+          min="2018-01-01"
+          max="2025-12-31"
+        />
+
+        <div class="task-panel-information">
+          <p class="tt-text" id="tt-text1">Input your images here!</p>
+        </div>
+        <div class="task-panel-image" id="imageDisplay">
+          <img alt="image" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="display-area">
+    <ul id="task-list"></ul>
+  </div>
+
+  <script src="render-task.js"></script>
+</body>

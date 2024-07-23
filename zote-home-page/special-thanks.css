@@ -1,0 +1,29 @@
+body{
+    background: repeating-radial-gradient(red, orange, red)
+}.parker{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(12, 129, 239);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifS;
+}.john{
+    font-size: 30px;
+    font-weight: 500;
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifS;
+}.tyson{
+    font-size: 30px;
+    font-weight: 500;
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifS;
+}
+.me{
+    font-size: 34px;
+    font-weight: 500;
+    color: rgb(183, 255, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifS;
+}.author{
+    font-size: 45px;
+    font-weight: 500;
+    color: rgb(12, 239, 186);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifS;
+}

@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(red, green);
+}
+.teamsection {
+  display: flex;
+}
+.title {
+  size: "5";
+  face: "Castellar";
+  color: "red";
+}
+.zote {
+  face: "algerian";
+  size: "10";
+  color: "red";
+}
+.this-is-so-cool {
+  face: "chiller";
+  size: "20";
+  color: "green";
+}
+img {
+  border: 2px;
+  width: 500px;
+  height: 500px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

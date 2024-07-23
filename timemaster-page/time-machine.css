@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(blue, purple);
+}
+.tttt {
+  font-family: cursive;
+  font-style: oblique;
+  color: aqua;
+}
+.task-panel {
+  display: flex;
+}
+
+#task-template{
+  display: none;
+}
+.task-panel-information {
+  outline: 5px dotted rgb(224, 11, 160);
+  width: 70vw;
+  margin: 15px;
+}
+.task-panel-image {
+  outline: 5px dotted rgb(25, 24, 11);
+  width: 30vw;
+  margin-left: 10px;
+  margin: 15px;
+
+}
+.tt-text {
+  font-size: 20px;
+  font-family: cursive;
+  color: mediumaquamarine;
+}
